@@ -34,13 +34,6 @@ def transform(df : pd.DataFrame) -> pd.DataFrame:
         #Erase anomalies
         df_copy[col] = df_copy[col].clip(lower = lower_limit, upper = upper_limit)
         
-        #Special case with std = 0 for normalization
-        if std == 0:
-            df_copy[col] = 0  # All values are the same
-        else:
-            df_copy[col] = (df_copy[col] - mean) / std
-        
-        
         #Keep the logs
         logging.info(f"Numerical column {col} successfully cleaned up")
         
