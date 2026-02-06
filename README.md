@@ -1,3 +1,4 @@
+Hello friend. This is a short overview of the repository, if caps for all the text bothers you, deal with it, get a new brain. Now without getting defensive, let's start this shit
 
 """README.MD"""
 THIS PROJECT IS PART OF A PORTFOLIO, ITS ENTIRE PURPOSE IS TO SHOW OFF MY CODING SKILLS AND UNDERSTANDING OF DATA PIPELINES AND DATA ANALYSIS
